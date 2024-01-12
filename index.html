@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left 4 Dead Brasil</title>
+    <style>
+        /* makes sizing simpler */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        /* remove default spacing */
+        /* force styling of type through styling, rather than elements */
+        * {
+            margin: 0;
+            padding: 0;
+            font: inherit;
+        }
+
+        /* dark mode user-agent-styles */
+        /* improves punctuation in supported browsers */
+        html {
+            color-scheme: dark light;
+            hanging-punctuation: first last;
+        }
+
+        /* min body height */
+        body {
+            min-height: 100svh;
+        }
+
+        /* responsive images/videos */
+        img,
+        picture,
+        svg,
+        video {
+            display: block;
+            max-width: 100%;
+        }
+
+        /* Improved heading in supported browsers */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-wrap: balance;
+        }
+
+        /* improve readability with max-width on paragraphs and lists */
+        /* prevent orphans in supported browsers */
+        p,
+        li {
+            max-width: var(--p-max-width, 65ch);
+            text-wrap: pretty;
+        }
+
+        body {
+            font-family: monospace;
+            font-size: 1.18em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.8rem;
+        }
+
+        b {
+            font-weight: bolder;
+        }
+
+        .main {
+            max-width: 40rem;
+            height: fit-content;
+            padding: 1rem;
+        }
+        .main p {
+            margin-bottom: 1rem;
+        }
+        .main ul {
+            margin-top:2rem;
+        }
+        .main ul li {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p>
+            Depois de muito considerar, declaro fechado o <b>Left 4 Dead Brasil</b>. 
+        </p>  
+        <p>
+            Manter um servidor de jogo, mais site e minhas obrigações pessoais começou a pesar (muito) na minha saúde.
+        </p>
+        <p>
+            O servidor do Left 4 Dead Brasil será desligado efetivamente. Futuros servidores feitos por mim serão de
+            forma privada ou caseira. Não pretendo manter servidores públicos, pois além de ser necessário tempo livre
+            para gerenciar e paciência, ainda tem os gastos.
+        </p>
+        <ul>
+            Algumas observações:
+            <li>
+                A lista de mapas que recomendo ficará disponível em breve. Publicarei um arquivo JSON no Github;
+            </li>
+            <li>
+                Existe a possibilidade de liberar o código para o plugin de login Steam para WordPress. Em todo o caso,
+                se isso não acontecer, <a href="https://github.com/xPaw/SteamOpenID.php">esse</a> e <a
+                    href="https://github.com/xPaw/SteamID.php">esse</a> são os pontos de partida;
+            </li>
+            <li>
+                Existe a possibilidade de liberar o código para o plugin de servidores Steam para WordPress. Em todo o caso,
+                se isso não acontecer, <a href="https://github.com/xPaw/PHP-Source-Query">comece por aqui</a>;
+            </li>
+            <li>
+                Esta página ficará disponível por tempo indeterminado. Pode sumir amanhã como pode sumir daqui 5 anos;
+            </li>
+            <li>
+                Os domínios left4dead.com.br e l4d.com.br serão renovados como de costume;
+            </li>
+        </ul>
+
+        Grato aos que me ajudaram até aqui.
+        Caso queira jogar comigo ou contribuir de alguma forma, <a href="https://steamcommunity.com/id/resonnant/">aqui</a>.
+
+
+    </div>
+
+</body>
+
+</html>
